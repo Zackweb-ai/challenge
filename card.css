@@ -1,0 +1,79 @@
+body{
+ background-color: rgb(245, 245, 245);   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cards{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: auto;
+    margin-top: 7%;
+
+}
+.backm img{
+    background-size: cover;
+    width: 100%;
+    border-top-left-radius: 7px ;
+    border-top-right-radius:7px ;
+    height: 200px;
+}
+.category p{
+    background-image: linear-gradient(to right top, #ee5886, #f36b89, #f87c8e, #fc8d95, #ff9d9d);  
+    width: 80px;
+    height: 10px;
+    padding: 4px;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.title h2{
+    font-size: 20px;
+}
+.title p{
+    font-size: small;
+}
+.profile-img img{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.name-hour{
+font-size: .7em;
+left: 70px;
+/* bottom: -60px;
+position: absolute; */
+}
+.container{
+    padding: 20px;
+    padding-top: 14px;
+}
+.profile{
+    position: relative;
+}
+.name-hour .p1{
+    font-weight: 700;
+    position: absolute;
+    left: 70px;
+
+}
+.name-hour .p2{
+    position: absolute;
+    bottom: -60px;
+    left: 70px;
+
+}
+.mp2 p{
+    background-image: linear-gradient(to right top, #4fc3cd, #7cd1c6, #a6ddc4, #cbe9ca, #ebf4d8);
+}
+.mp3 p{
+    background-image: linear-gradient(to right top, #e1e1e1, #dadada, #d3d2d3, #cdcbcc, #c6c4c4);
+}
